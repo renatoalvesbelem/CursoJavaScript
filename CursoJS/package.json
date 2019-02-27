@@ -1,0 +1,20 @@
+{
+  "name": "CursoJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./NodeModules/funcionarios.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
