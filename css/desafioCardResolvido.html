@@ -5,37 +5,50 @@
     <meta charset="UTF-8">
     <title>Desafio Card</title>
     <style>
-       .curso{
-        display: inline-table;
-           position: relative;
-           border: 1px solid black;
-           width: 250px;
-           height: 300px;
-       }
-       
-       .curso img {
+        .curso {
             display: inline-block;
-            width: 240px;
-            padding: 5px 5px 0px 5px;
+            vertical-align: top;
+            /* float: left; */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 1px solid #cccccc;
+            box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+            height: 300px;
+            width: 260px;
+            margin: 5px 20px;
+            padding: 5px;
         }
 
-        h4 {
+        .curso img {
+            width: 100%;
+            max-height: 50%;
+        }
+
+        .curso-info {
+            padding: 10x;
+            height: 90px;
+            overflow: hidden;
+        }
+
+        .curso-info h4 {
+            font-size: 1.4em;
+            font-weight: 100;
             margin: 0;
         }
-        .curso > .curso-info{
-            display: inline-block;
-            padding: 5px 10px 5px 10px;
-            font-size: 18px;
-        }
 
-        .curso-info > p{
-            font-size: 17px;
-        }
-
-        .curso-preco{
-            display: block;
+        .curso-preco {
             float: right;
-            margin: 10px 20px 5px
+            padding: 10px;
+        }
+
+        .preco-de {
+            text-decoration: line-through;
+            color: firebrick;
+        }
+
+        .preco-por {
+            color: green;
+            font-weight: bold;
+            font-size: 1.4em;
         }
     </style>
 </head>
